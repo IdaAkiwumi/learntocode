@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import errorIcon from "./images/icon-error.svg";
+import errorIcon from "";
 import './App.css';
 
 
