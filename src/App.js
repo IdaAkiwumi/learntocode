@@ -1,5 +1,9 @@
 import logo from './logo.svg';
+import errorIcon from "./images/icon-error.svg";
 import './App.css';
+
+
+
 
 function App() {
   return (
@@ -18,6 +22,24 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+    <img src={errorIcon}/>
+
+
+    </main>
+
+    <footer>
+
+        
+            
+      
+        
+    </footer>
+
+
+
+
+
     </div>
   );
 }
