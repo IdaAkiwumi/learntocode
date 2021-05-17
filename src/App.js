@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import errorIcon from "./images/icon-error.svg";
 import './App.css';
 
-
-
+var fName= document.querySelector('.fname');
+var buttonClick = document.querySelector ('#btn');
+var formText = document.querySelector('.subtext');
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+
+
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -23,25 +26,25 @@ function App() {
         </a>
       </header>
       <main>
+
     <img src={errorIcon}/>
 
 
+
     </main>
-
-    <footer>
-
-        
-            
-      
-        
-    </footer>
-
-
-
 
 
     </div>
   );
 }
+
+
+ function throwMsg(){
+       return alert( 'Hello' + fName + '!');
+    
+        }
+     
+buttonClick.addEventListener("click", throwMsg);
+
 
 export default App;
