@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/learntocode/static/js/main.d37939ac.chunk.js",
+    "main.js.map": "/learntocode/static/js/main.d37939ac.chunk.js.map",
+    "runtime-main.js": "/learntocode/static/js/runtime-main.73ff6d51.js",
+    "runtime-main.js.map": "/learntocode/static/js/runtime-main.73ff6d51.js.map",
+    "index.html": "/learntocode/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73ff6d51.js",
+    "static/js/main.d37939ac.chunk.js"
+  ]
+}
